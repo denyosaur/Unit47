@@ -131,7 +131,6 @@ class BinaryTree {
     findDepth(node1, "first")
     findDepth(node2, "second")
     let sameParent = checkParent(node1, node2)
-    console.log(firstDepth, secondDepth)
     return sameParent ? false : firstDepth === secondDepth
   }
 
