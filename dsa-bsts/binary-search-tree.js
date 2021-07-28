@@ -171,7 +171,12 @@ class BinarySearchTree {
    * Returns the removed node. */
 
   remove(val) {
+    let search = this.root
+    while (search) {
+      if (search.val === val) {
 
+      }
+    }
   }
 
   /** Further Study!
